@@ -147,7 +147,10 @@ Deploying to Heroku
 Push your code to Heroku remote. Because you are on the solution branch of the Book-e JSON App, you will need to run $ git push heroku solution:master in your terminal. This ensures that your most up-to-date code -- a.k.a. our solution branch is deployed.
 
 Note:
-If you are deploying to Heroku from the master branch, you can run the command $ git push heroku master.
+If you are deploying to Heroku from the master branch, you can run the command 
+```
+$ git push heroku master.
+```
 Seed your Atlas database by running the command:
 ```
 $ heroku run node db/seed.js
@@ -155,6 +158,10 @@ $ heroku run node db/seed.js
 
 Note:
 heroku run allows you to run js files on the heroku server. We can seed our database on heroku using the same seed file we used locally.
-Open your application! Run the command $ heroku open in your terminal. This will launch your production app in a new browser tab.
+Open your application! Run the command 
+```
+$ heroku open 
+```
+in your terminal. This will launch your production app in a new browser tab.
 
 You just successfully deployed your first app! You should be proud, so pat yourself on the back, give your neighbor a high five, call your parents, and share this milestone with someone you love!
